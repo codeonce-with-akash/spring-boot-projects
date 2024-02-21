@@ -1,0 +1,18 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASMXC6SCJ7VODYIIT
+      secret-key: 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
+    region:
+       static: ap-south-1
+    stack:
+      auto: false
+      
+application:
+  bucket:
+    name: warehouse-app-bucket
+    
+spring:  servlet:    multipart:      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB         

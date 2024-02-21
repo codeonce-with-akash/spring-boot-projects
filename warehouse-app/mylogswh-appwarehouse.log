@@ -1,0 +1,136 @@
+2024-01-19T18:41:30.223+05:30  INFO 21700 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Starting WarehouseAppApplication using Java 17.0.4.1 with PID 21700 (G:\workspace-codeones-2024\java-real-time-project\warehouse-application\warehouse-app\target\classes started by akash in G:\workspace-codeones-2024\java-real-time-project\warehouse-application\warehouse-app)
+2024-01-19T18:41:30.223+05:30 DEBUG 21700 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Running with Spring Boot v3.1.7, Spring v6.0.15
+2024-01-19T18:41:30.224+05:30  INFO 21700 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-01-19T18:41:30.724+05:30  INFO 21700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-19T18:41:30.739+05:30  INFO 21700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-01-19T18:41:30.840+05:30  INFO 21700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-01-19T18:41:30.841+05:30  INFO 21700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-19T18:41:30.841+05:30  INFO 21700 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-19T18:41:30.857+05:30  INFO 21700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-19T18:41:30.857+05:30  INFO 21700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2024-01-19T18:41:30.892+05:30  INFO 21700 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-19T18:41:30.900+05:30  INFO 21700 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-19T18:41:30.901+05:30  INFO 21700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-01-19T18:41:30.937+05:30  INFO 21700 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71ff12fe
+2024-01-19T18:41:30.937+05:30  INFO 21700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-01-19T18:41:30.977+05:30  INFO 21700 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-19T18:41:31.000+05:30  INFO 21700 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-19T18:41:31.129+05:30  WARN 21700 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-19T18:41:31.235+05:30  INFO 21700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-19T18:41:31.254+05:30  INFO 21700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-01-19T18:41:31.258+05:30  INFO 21700 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Started WarehouseAppApplication in 1.065 seconds (process running for 7152.003)
+2024-01-19T18:41:31.259+05:30  INFO 21700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-01-19T18:43:14.254+05:30  INFO 21700 --- [RMI TCP Connection(43)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-01-19T18:43:14.314+05:30  INFO 21700 --- [RMI TCP Connection(43)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-01-19T18:43:14.325+05:30  INFO 21700 --- [RMI TCP Connection(43)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-19T18:43:14.332+05:30  INFO 21700 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-01-19T18:43:14.352+05:30  INFO 21700 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-01-19T18:44:09.872+05:30  INFO 19756 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Starting WarehouseAppApplication using Java 17.0.4.1 with PID 19756 (G:\workspace-codeones-2024\java-real-time-project\warehouse-application\warehouse-app\target\classes started by akash in G:\workspace-codeones-2024\java-real-time-project\warehouse-application\warehouse-app)
+2024-01-19T18:44:09.874+05:30 DEBUG 19756 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Running with Spring Boot v3.1.7, Spring v6.0.15
+2024-01-19T18:44:09.875+05:30  INFO 19756 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-01-19T18:44:09.931+05:30  INFO 19756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-19T18:44:09.932+05:30  INFO 19756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-19T18:44:10.582+05:30  INFO 19756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-19T18:44:10.655+05:30  INFO 19756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2024-01-19T18:44:11.379+05:30  INFO 19756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-01-19T18:44:11.390+05:30  INFO 19756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-19T18:44:11.391+05:30  INFO 19756 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-19T18:44:11.448+05:30  INFO 19756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-19T18:44:11.448+05:30  INFO 19756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1516 ms
+2024-01-19T18:44:11.593+05:30  INFO 19756 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-19T18:44:11.639+05:30  INFO 19756 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.17.Final
+2024-01-19T18:44:11.642+05:30  INFO 19756 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-01-19T18:44:11.882+05:30  INFO 19756 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-19T18:44:11.904+05:30  INFO 19756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-19T18:44:12.599+05:30  INFO 19756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bedd3c8
+2024-01-19T18:44:12.604+05:30  INFO 19756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-19T18:44:13.546+05:30  INFO 19756 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-19T18:44:13.633+05:30  INFO 19756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-19T18:44:13.865+05:30  INFO 19756 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-19T18:44:14.308+05:30  WARN 19756 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-19T18:44:14.637+05:30  INFO 19756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-19T18:44:14.686+05:30  INFO 19756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-01-19T18:44:14.696+05:30  INFO 19756 --- [restartedMain] c.c.warehouse.WarehouseAppApplication    : Started WarehouseAppApplication in 5.229 seconds (process running for 6.042)
+2024-01-19T18:44:33.914+05:30  INFO 19756 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-19T18:44:33.914+05:30  INFO 19756 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-19T18:44:33.915+05:30  INFO 19756 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-19T18:44:33.939+05:30  INFO 19756 --- [http-nio-9090-exec-2] c.c.w.controller.ShipmentTypeController  : ENTERED INTO ShipmentTypeController::getShipmentTypes(-) METHOD
+2024-01-19T18:44:34.056+05:30 DEBUG 19756 --- [http-nio-9090-exec-2] c.c.w.controller.ShipmentTypeController  : SUCCESS: [ShipmentType(id=152, shipMode=TRUCK, shipCode=MEGALAND, enblShip=NO, shipGrade=C, shipDesc=SAMPLE SHIPMENTTYPE TRUCK), ShipmentType(id=153, shipMode=TRUCK, shipCode=TATA, enblShip=YES, shipGrade=B, shipDesc=SAMPLE SHIPMENTTYPE TRUCK)]
+2024-01-19T18:44:34.057+05:30  INFO 19756 --- [http-nio-9090-exec-2] c.c.w.controller.ShipmentTypeController  : ABOUT TO EXIT FROM ShipmentTypeController::getShipmentTypes(-) METHOD
+2024-01-19T18:44:41.729+05:30  INFO 19756 --- [http-nio-9090-exec-3] c.c.w.controller.ShipmentTypeController  : ENTERED INTO ShipmentTypeController::getShipmentType(-)
+2024-01-19T18:44:41.789+05:30 DEBUG 19756 --- [http-nio-9090-exec-3] c.c.w.controller.ShipmentTypeController  : SUCCESS: ShipmentType is found with id: 153
+2024-01-19T18:44:41.789+05:30  INFO 19756 --- [http-nio-9090-exec-3] c.c.w.controller.ShipmentTypeController  : ABOUT TO EXIT FROM ShipmentTypeController::getShipmentType(-) METHOD
+2024-01-19T18:44:51.360+05:30  INFO 19756 --- [http-nio-9090-exec-4] c.c.w.controller.ShipmentTypeController  : ENTERED INTO ShipmentTypeController::getShipmentType(-)
+2024-01-19T18:44:51.370+05:30 DEBUG 19756 --- [http-nio-9090-exec-4] c.c.w.controller.ShipmentTypeController  : SUCCESS: ShipmentType is found with id: 152
+2024-01-19T18:44:51.371+05:30  INFO 19756 --- [http-nio-9090-exec-4] c.c.w.controller.ShipmentTypeController  : ABOUT TO EXIT FROM ShipmentTypeController::getShipmentType(-) METHOD
+2024-01-19T18:44:57.105+05:30  INFO 19756 --- [http-nio-9090-exec-5] c.c.w.controller.ShipmentTypeController  : ENTERED INTO ShipmentTypeController::getShipmentType(-)
+2024-01-19T18:44:57.117+05:30 ERROR 19756 --- [http-nio-9090-exec-5] c.c.w.controller.ShipmentTypeController  : Exception - com.codeones.warehouse.exception.ShipmentTypeNotFoundExcepiton: ShipmentType is not exist for id '156'
+	at com.codeones.warehouse.service.impl.ShipmentTypeServiceImpl.lambda$0(ShipmentTypeServiceImpl.java:54)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.codeones.warehouse.service.impl.ShipmentTypeServiceImpl.getShipmentTypeById(ShipmentTypeServiceImpl.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.codeones.warehouse.service.impl.ShipmentTypeServiceImpl$$SpringCGLIB$$0.getShipmentTypeById(<generated>)
+	at com.codeones.warehouse.controller.ShipmentTypeController.getShipmentType(ShipmentTypeController.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-01-19T18:44:57.125+05:30  WARN 19756 --- [http-nio-9090-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.codeones.warehouse.exception.ShipmentTypeNotFoundExcepiton: ShipmentType is not exist for id '156']
+2024-01-19T18:46:40.015+05:30  INFO 19756 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-01-19T18:46:40.044+05:30  INFO 19756 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-01-19T18:46:40.045+05:30  INFO 19756 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-01-19T18:46:40.053+05:30  INFO 19756 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-19T18:46:40.056+05:30  INFO 19756 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-19T18:46:40.073+05:30  INFO 19756 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
